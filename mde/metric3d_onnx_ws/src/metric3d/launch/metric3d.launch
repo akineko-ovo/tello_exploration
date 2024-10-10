@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="model_file" default="$(find metric3d)/models/metric_3d.onnx"/>
+    <arg name="warmup_file" default="$(find metric3d)/warmup/image.png"/>
+    <arg name="camera_topic" default="/tello_proc/image_raw"/>
+    <arg name="depth_topic" default="/tello_depth/image_raw"/>
+
+    <node pkg="metric3d" type="metric3d_ros.py" name="metric3d" output="screen">
+        <param name="MODEL_FILE" value="$(arg model_file)"/>
+        <param name="WARMUP_FILE" value="$(arg warmup_file)"/>
+        <remap from="/image_raw" to="$(arg camera_topic)"/>
+        <remap from="/depth_image" to="$(arg depth_topic)"/>
+    </node>
+
+</launch>

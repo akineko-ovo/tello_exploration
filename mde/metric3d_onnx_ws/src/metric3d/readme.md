@@ -1,0 +1,1 @@
+Metric3D ROS version modified from [Owen-Liuyuxuan/ros2_vision_inference: unified multi-threading inferencing nodes for monocular 3D object detection, depth prediction and semantic segmentation (github.com)](https://github.com/Owen-Liuyuxuan/ros2_vision_inference)

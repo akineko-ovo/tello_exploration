@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/active_perception/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/bspline/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/bspline_opt/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/exploration_manager/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/utils/lkh_tsp_solver/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/local_sensing/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/path_searching/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/plan_env/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/plan_manage/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/poly_traj/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/so3_control/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/so3_disturbance_generator/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/planner/traj_utils/include/**",
+        "/home/ncadeaku/Softwares/FUEL_test/FUEL/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

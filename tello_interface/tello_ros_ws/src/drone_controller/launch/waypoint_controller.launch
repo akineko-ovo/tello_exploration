@@ -1,0 +1,29 @@
+<launch>
+
+    <include file="$(find drone_controller)/launch/position_controller.launch" />
+    <include file="$(find drone_controller)/launch/altitude_controller.launch" />
+
+    <include file="$(find drone_controller)/launch/yaw_controller.launch" />
+
+    <!-- <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" /> -->
+    
+    <node name="controller_interface" pkg="drone_controller" type="controller_interface" output="screen">
+        <remap from="/err_x_b"   to="/pid_pitch/state"/>
+        <remap from="/err_y_b"   to="/pid_roll/state"/>
+        <remap from="/err_alt_b" to="/pid_thrust/state"/>
+        <remap from="/err_yaw_b" to="/pid_yaw/state"/>
+        <!-- <remap from="/pid_zero_setpoint" to="/pid_yaw/state"/> -->
+        <remap from="/orb_slam/pose" to="/orb_slam2_rgbd/pose" />
+    </node>
+
+
+    <!-- <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" -->
+    <!-- args="/pid_roll/state" /> -->
+
+    <!-- <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" ns="waypoint_controller"
+    args="/pid_thrust/control_effort
+          /pid_roll/control_effort
+          /pid_pitch/control_effort
+          /pid_yaw/control_effort" /> -->
+    
+</launch>

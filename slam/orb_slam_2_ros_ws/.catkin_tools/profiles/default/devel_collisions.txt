@@ -1,0 +1,1 @@
+/home/ncadeaku/Softwares/tello/slam/orb_slam_2_ros_ws/devel/./cmake.lock 1

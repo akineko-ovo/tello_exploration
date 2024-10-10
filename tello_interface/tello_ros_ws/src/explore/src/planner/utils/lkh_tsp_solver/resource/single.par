@@ -1,0 +1,4 @@
+PROBLEM_FILE = /home/ncadeaku/Softwares/tello/tello_interface/tello_ros_ws/src/explore/src/planner/utils/lkh_tsp_solver/resource/single.tsp
+GAIN23 = NO
+OUTPUT_TOUR_FILE =/home/ncadeaku/Softwares/tello/tello_interface/tello_ros_ws/src/explore/src/planner/utils/lkh_tsp_solver/resource/single.txt
+RUNS = 1
