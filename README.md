@@ -4,7 +4,7 @@
 
 ## Installation
 
-This project has been tested on Ubuntu 20.04 (ROS Noetic). Please follow the commands from different parts to install the required tools.
+This project has been tested on Ubuntu 20.04 (ROS Noetic). Please follow the commands from different parts to install the required tools. The main parameter settings are located in the launch files within each directory. Please modify them according to your needs.
 
 ## How to run
 
